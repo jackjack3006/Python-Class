@@ -1,4 +1,4 @@
-'''#WAP using functions to generate prime numbers using method of sieve of eratosthenes
+WAP using functions to generate prime numbers using method of sieve of eratosthenes
 
 def sieve(n):
 	prime = list()
@@ -11,7 +11,7 @@ n = int(input("Enter the number until which u want to find the prime numbers for
 print(sieve(n))
 		
 
-#WAP using recursion to reverse a string
+WAP using recursion to reverse a string
 word = 'hello'
 def reverse(word):
 	if len(word) == 0:
@@ -21,7 +21,7 @@ def reverse(word):
 print(reverse(word))
 
 
-#WAP using callbacks to find sum, double and triple of a given number
+WAP using callbacks to find sum, double and triple of a given number
 
 def f(func,n):
 	func(n)
@@ -40,7 +40,7 @@ f(triple,10)
 
 
 
-#WAP using recursion to find a^b
+WAP using recursion to find a^b
 
 def exponent(a,b):
 	if b == 0:	
@@ -49,7 +49,7 @@ def exponent(a,b):
 		return a*exponent(a,b-1)
 print(exponent(2,3))	
 
-'''
+
 
 #WAP using closure and callback find nth fibonacci number
 
